@@ -1,0 +1,163 @@
+(footprint "Red&BlackBananaConnector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.588 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3af7b0db-d9f5-4af0-a920-f0a5040e520a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Red&BlackBananaConnector"
+		(at 0 7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "08979e27-ab60-4fba-8753-20bb9b76014d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1af5eb6-c62a-46b8-96b8-642806f80c9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eef4c4e4-c74a-4812-ad65-321f93fc576e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -15 0)
+		(end -10.174 4.826)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3f5c6d4d-f052-4b87-980b-5b719a67adda")
+	)
+	(fp_circle
+		(center 15 0)
+		(end 19.826 4.826)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8a49f670-bbf9-48b9-bfc4-4b11003fb868")
+	)
+	(fp_circle
+		(center -15 0)
+		(end -12.968 1.778)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "13ec440e-f6cc-4b62-81b3-23ea38f0339c")
+	)
+	(fp_circle
+		(center 15 0)
+		(end 17.032 1.778)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "e8fc0d69-7511-4914-99ee-ff86806ffe76")
+	)
+	(fp_rect
+		(start -25.4 -12.7)
+		(end 27.94 12.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "51543173-811a-4881-ab56-7090bbc8ae6f")
+	)
+	(fp_rect
+		(start -25.4 -12.7)
+		(end 27.94 12.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5e7649c0-3544-48be-b69a-9fd0c4a0afa5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 10.414 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c25f8a18-27e9-49f9-afe7-3c34cc70a785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -15 0)
+		(size 2.9 2.9)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "247d9190-adcd-4acb-b17c-03dc1b9bd412")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 2.9 2.9)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c447cd1b-5bad-4459-aa9a-bf4a7f5450e7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3DModel/redandblackBananaConnector.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
