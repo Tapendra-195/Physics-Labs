@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "banana_connector")(type "KiCad")(uri "${KIPRJMOD}/libs/Footprints/banana_connector.pretty")(options "")(descr ""))
+  (lib (name "power_connector")(type "KiCad")(uri "${KIPRJMOD}/libs/Footprints/power_connector.pretty")(options "")(descr ""))
+  (lib (name "jumper_connector")(type "KiCad")(uri "${KIPRJMOD}/libs/Footprints/jumper_connector.pretty")(options "")(descr ""))
+  (lib (name "uw_logo")(type "KiCad")(uri "${KIPRJMOD}/libs/Images/uw-logo")(options "")(descr ""))
 )

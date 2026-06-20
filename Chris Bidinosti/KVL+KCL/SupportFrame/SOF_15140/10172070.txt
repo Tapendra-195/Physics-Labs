@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-09082024-083135";"";
+"REFERENCE";"SOF-15140";"";
+"TraceParts.PartTitle";"Screw-On Bumpers";"";
+"TraceParts.InstanceId";"90-09082024-0831358YKK0TAUIUT0GY5D6E9EA24GL";"";
+"SUPPLIER";"Essentra Components";"";
+"DESIGN";"Screw-On Feet 17.5 mm 9.5 mm Rubber";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.1";"";

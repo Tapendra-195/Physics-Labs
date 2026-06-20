@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "banana_connector")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/banana_connector.kicad_sym")(options "")(descr ""))
+  (lib (name "PowerConnector")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/PowerConnector.kicad_sym")(options "")(descr ""))
+  (lib (name "JumperConnector")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/JumperConnector.kicad_sym")(options "")(descr ""))
+  (lib (name "bananapower")(type "KiCad")(uri "${KIPRJMOD}/libs/FCR7350R/FCR7350R/FCR7350R (2)/KiCADv6/2026-01-20_20-13-11.kicad_sym")(options "")(descr ""))
 )

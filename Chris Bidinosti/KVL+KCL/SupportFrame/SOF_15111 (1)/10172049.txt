@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-27072024-025524";"";
+"REFERENCE";"SOF-15111";"";
+"TraceParts.PartTitle";"Screw-On Feet 19.0 mm 15.3 mm Rubber";"";
+"TraceParts.InstanceId";"90-27072024-0255242IX0Y3QJSCZE47E9SUJO0COAR";"";
+"SUPPLIER";"Essentra Components";"";
+"DESIGN";"Screw-On Feet 19.0 mm 15.3 mm Rubber";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.1";"";
