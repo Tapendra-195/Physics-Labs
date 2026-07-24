@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADA4177_2ARZ")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/ADA4177_2ARZ.pretty")(options "")(descr ""))
+  (lib (name "ADA4177_4ARZ_RL")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/ADA4177_4ARZ_RL.pretty")(options "")(descr ""))
+  (lib (name "2SH_C_03_TR")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/2SH_C_03_TR.pretty")(options "")(descr ""))
+  (lib (name "031-5640")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/031-5640.pretty")(options "")(descr ""))
+  (lib (name "uwLogo")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/uwLogo.pretty")(options "")(descr ""))
+)

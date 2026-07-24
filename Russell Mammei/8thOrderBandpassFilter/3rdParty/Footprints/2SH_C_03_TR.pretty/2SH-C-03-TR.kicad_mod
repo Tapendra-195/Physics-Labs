@@ -1,0 +1,223 @@
+(footprint "2SH-C-03-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.525 3.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "00a4b0b8-2d74-4e62-baa8-cbda86a73411")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2SH-C-03-TR"
+		(at 3.975 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "310cc22c-7be5-4d49-b308-914291290d97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/240566/2sh-c-xx-tr-data-sheet.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8beaf322-7db6-4841-84d4-c62060b6352a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3 Pin Connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16fbba0e-3d39-4bde-b3c2-9be12a53ddbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Vendor" "Digikey"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bc3d692f-ec39-4cf2-80af-af438312ee6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.ca/en/products/detail/adam-tech/2SH-C-03-TR/9830368"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6af8d18-769e-44b8-b4cc-afca5df3dc37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -6.14)
+		(end 4 -6.14)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a98e5152-5388-493d-8dac-39427d0b0e73")
+	)
+	(fp_line
+		(start -4 1.56)
+		(end -4 -6.14)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1d53d226-344f-4485-9f8e-3a4b711cf8f3")
+	)
+	(fp_line
+		(start -4 1.56)
+		(end 4 1.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55a7ad66-d0bc-45e4-ae56-b9e1e6d355aa")
+	)
+	(fp_line
+		(start 4 -6.14)
+		(end 4 1.56)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9831c98d-3636-44cc-8dd8-eddbac1ae989")
+	)
+	(fp_rect
+		(start -4.572 -6.604)
+		(end 4.572 2.032)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2d5057e9-1b94-4482-aab9-8a161082c49c")
+	)
+	(fp_text user "GND"
+		(at -0.381 -0.889 270)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "4de64cc0-b6bf-4f9d-9d73-2ff30c351745")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "-12V"
+		(at -2.54 -0.762 270)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "b9f550e6-a41c-4537-a1d2-c0ecf546633a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "+12V"
+		(at 1.778 -0.762 270)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "f0db25b2-5612-4277-92d8-619078e8e7c1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.425 6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a91210a-799a-45e8-9dda-582193480367")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.1 1.1)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6fb6fa9f-aacc-40e8-8563-82a02dffec11")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.1 1.1)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb5e7a96-7d26-4f0d-8799-aa118a35cf06")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.1 1.1)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4dde99c-6749-4d9f-9bc1-8561f54f38c8")
+	)
+	(group ""
+		(uuid "3527d9a3-44a5-4f17-bb4b-4d535de5babe")
+		(members "2d5057e9-1b94-4482-aab9-8a161082c49c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3rdParty/3DModels/2SH_C_03_TR/2SH-C-03-TR.stp"
+		(offset
+			(xyz 0 2.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,171 @@
+(footprint "031-5640"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.477 -15.875 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd7e892b-6068-4e76-b32c-ab3ccabf38f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "031-5640"
+		(at 24.765 4.953 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6725c345-01ad-4b96-bb7e-a5747e70bccb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.amphenolrf.com/en-us/assets/file/4065788098/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f44d2e71-3642-4d11-bdb2-d19b37ae1dd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN BNC JACK R/A 50 OHM PCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d39c8bd-7b84-48a6-8794-3797b2d4aed2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Vendor" "Digikey"
+		(at 62.992 31.496 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "56be58d5-8784-4cec-b11f-63ea700d10f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Part#" "031-5640"
+		(at 65.024 33.528 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e10683a9-d0bb-403c-bbdd-dd4baba787c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Link" "https://www.digikey.ca/en/products/detail/amphenol-rf/031-5640/3593524"
+		(at 64.516 29.464 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f929758b-a0e1-45f9-8079-4f0b84ee6e62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -8.001 -13.081)
+		(end 8.001 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "549750fd-6068-42a4-9d98-f19d943871fd")
+	)
+	(fp_rect
+		(start -8.001 -13.081)
+		(end 8.001 2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f5894b13-47ab-4614-9ba1-8c5b8ede7666")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 25.273 6.985 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fbf3f4c2-7a94-45e4-8a06-8010fd1ac0a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.3 1.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a229a0f7-5d8a-400d-a975-f67cdd853f61")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 1.3 1.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6b1742c-6cc3-4b49-9a49-d978f2b3bfdf")
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 -5.08)
+		(size 2.4 2.4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71cbba0f-dc33-41c3-ba2f-4a3dea986fb0")
+	)
+	(pad "4" thru_hole circle
+		(at 5.08 -5.08)
+		(size 2.4 2.4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d9829af-aca2-4e7b-935c-d436a9cffb22")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3rdParty/3DModels/031-5640/031-5640.stp"
+		(offset
+			(xyz 0 -1.7 7.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
