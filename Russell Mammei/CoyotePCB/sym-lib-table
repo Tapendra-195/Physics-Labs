@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2N3904")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Symbols/2N3904.kicad_sym")(options "")(descr ""))
+  (lib (name "Bs-7")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Symbols/Bs-7.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,85 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.7-9.0.7~ubuntu24.04.1*%
+%TF.CreationDate,2026-08-17T01:15:09-05:00*%
+%TF.ProjectId,CoyotePCB,436f796f-7465-4504-9342-2e6b69636164,1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.7-9.0.7~ubuntu24.04.1) date 2026-08-17 01:15:09*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10C,1.800000*%
+%ADD11C,1.600000*%
+%ADD12C,1.500000*%
+%ADD13RotRect,1.050000X1.500000X320.000000*%
+%ADD14HorizOval,1.050000X-0.144627X-0.172360X0.144627X0.172360X0*%
+%ADD15C,1.676400*%
+%ADD16C,2.006600*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,D2*%
+X148440000Y-78400000D03*
+X150980000Y-78400000D03*
+%TD*%
+D11*
+%TO.C,R4*%
+X159713402Y-72062319D03*
+X161036602Y-64558084D03*
+%TD*%
+D12*
+%TO.C,R1*%
+X144775000Y-88835200D03*
+X141375000Y-88835200D03*
+%TD*%
+D11*
+%TO.C,R3*%
+X154950000Y-72000000D03*
+X144790000Y-72000000D03*
+%TD*%
+D13*
+%TO.C,Q1*%
+X149670720Y-66084436D03*
+D14*
+X150643596Y-66900776D03*
+X151616473Y-67717117D03*
+%TD*%
+D10*
+%TO.C,D1*%
+X137660000Y-78400000D03*
+X135120000Y-78400000D03*
+%TD*%
+D11*
+%TO.C,R2*%
+X131150000Y-72000000D03*
+X141310000Y-72000000D03*
+%TD*%
+D15*
+%TO.C,B1*%
+X143050000Y-83185200D03*
+D16*
+X143050000Y-103175000D03*
+%TD*%
+M02*
