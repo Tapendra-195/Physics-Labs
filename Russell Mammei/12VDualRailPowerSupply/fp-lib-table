@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LinearRegulator")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/MC79L12ACDR.pretty")(options "")(descr ""))
+  (lib (name "DCDCConverter")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/PDM2-S12-D15-S.pretty")(options "")(descr ""))
+  (lib (name "PwrConnector")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/PJ_066A.pretty")(options "")(descr ""))
+  (lib (name "IndicatorLED")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/ul_SSF-LXHM250GGD.pretty")(options "")(descr ""))
+  (lib (name "LinRegulator")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/AS78L12RTR_G1.pretty")(options "")(descr ""))
+  (lib (name "Inductor")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/LQH3NPZ6R8MMEL.pretty")(options "")(descr ""))
+  (lib (name "3PinConnector")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/2SH_C_03_TR.pretty")(options "")(descr ""))
+  (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/Logo.pretty")(options "")(descr ""))
+)
