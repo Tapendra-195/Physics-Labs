@@ -3950,6 +3950,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/littelfuse-inc/SMAJ12A/762270"
+			(at 45.72 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff93a3e3-2790-4025-86cd-00e6fb74c4ac")
 		)
@@ -4152,6 +4161,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM1885C1H162FA16D/11618397"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95d5a7e0-7631-4012-9238-0875fa7d1fb7")
 		)
@@ -4213,6 +4231,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/analog-devices-inc/ADA4177-2ARZ/5031767"
 			(at 212.09 66.04 0)
 			(effects
 				(font
@@ -4300,6 +4327,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 231.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD071K78L/1072338"
+			(at 231.14 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,6 +4544,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/amphenol-rf/031-5640/3593524"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c94ba4e-dc76-4afc-a4db-6e5422ea896e")
 		)
@@ -4651,6 +4696,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486"
+			(at 193.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb5b6b57-0fda-42bf-b550-6cb4527e8f39")
 		)
@@ -4721,6 +4775,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM1885C1H162FA16D/11618397"
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d238bab7-8bc2-485b-8b82-29114c3df1f1")
 		)
@@ -4783,6 +4846,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD073K57L/1072508"
+			(at 231.14 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,6 +4990,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07261KL/1072397"
+			(at 226.06 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,6 +5144,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d83a8dde-6224-4af0-8995-a2eddba79ea9")
 		)
@@ -5191,6 +5281,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C331F5GACTU/2200509"
 			(at 226.06 62.23 0)
 			(effects
 				(font
@@ -5469,6 +5568,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/littelfuse-inc/SMAJ12A/762270"
+			(at 44.45 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6c4eaeb-b7a1-482e-8d50-26d392da6646")
 		)
@@ -5692,6 +5800,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD0790K9L/1072677"
+			(at 223.52 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c3fc3b2-1309-416d-a8e6-c2b5712b6e09")
 		)
@@ -5754,6 +5871,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 238.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM1885C1H472FA16D/17862000"
 			(at 238.76 67.31 0)
 			(effects
 				(font
@@ -5831,6 +5957,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486"
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "84415f57-a843-4b55-bc9e-3dfe9e480f46")
 		)
@@ -5892,6 +6027,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486"
 			(at 229.87 152.4 0)
 			(effects
 				(font
@@ -6031,6 +6175,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 128.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
 			(at 128.27 152.4 0)
 			(effects
 				(font
@@ -6242,6 +6395,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C331F5GACTU/2200509"
+			(at 160.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3df9bed2-55bd-41ce-94a6-7ed6c80a68e2")
 		)
@@ -6303,6 +6465,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 226.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07107KL/1072193"
+			(at 226.06 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,6 +6552,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD079K09L/1072691"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba71c144-d3c7-450f-9d4d-e7328b24e1f1")
 		)
@@ -6442,6 +6622,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486"
 			(at 158.75 152.4 0)
 			(effects
 				(font
@@ -6519,6 +6708,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM1885C1H162FA16D/11618397"
+			(at 246.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d8356bb-5c4c-4217-a7ac-3dbf249ccd66")
 		)
@@ -6580,6 +6778,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 181.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/analog-devices-inc/ADA4177-4ARZ-RL/5170723?s=N4IgTCBcDaIIIBE4BYCMB2dBaZcBKAWlngDIgC6AvkA"
 			(at 181.61 100.33 0)
 			(effects
 				(font
@@ -6892,6 +7099,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/SMAJ12CA-TR13/13689550?s=N4IgTCBcDaIMoFkCCApAjGAwkg9AFwCc0BmEAXQF8g"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6448367-6854-4c0a-a6b0-ead97786ff15")
 		)
@@ -7028,6 +7244,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM1885C2A751FA16J/17851624"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b520e481-02ff-4351-aa87-185a406c987f")
 		)
@@ -7090,6 +7315,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
 			(at 199.39 152.4 0)
 			(effects
 				(font
@@ -7371,6 +7605,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM1885C1H162FA16D/11618397"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1ddc107-905d-4960-a66d-b4754e620fab")
 		)
@@ -7432,6 +7675,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD074K64L/1072559"
+			(at 152.4 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,6 +7753,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 241.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD073K57L/1072508"
 			(at 241.3 59.69 0)
 			(effects
 				(font
@@ -7787,6 +8048,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
+			(at 165.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad2b69dd-d112-4edd-8ee2-7ab976574a69")
 		)
@@ -8053,6 +8323,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD0738K3L/1072492"
+			(at 226.06 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e855f149-0c64-4b32-ae46-315ff8bbc19e")
 		)
@@ -8114,6 +8393,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD079K09L/1072691"
+			(at 152.4 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
