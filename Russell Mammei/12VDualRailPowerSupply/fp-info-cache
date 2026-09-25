@@ -1,4 +1,4 @@
-26783453987493723
+26790603345147200
 3PinConnector
 2SH-C-03-TR
 
@@ -59366,6 +59366,13 @@ CONV_PDM2-S12-D15-S
 0
 5
 5
+DCDCConverterNew
+CONV_PCN2-S12-D15-S
+
+
+0
+5
+5
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -97362,6 +97369,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SRN3015BTA
+IND_SRN3015BTA-2R2M_BRN
+
+SRN3015BTA-5R6M 
+0
+2
+2
+SRN3015BTA
+IND_SRN3015BTA-2R2M_BRN-L
+
+SRN3015BTA-5R6M 
+0
+2
+2
+SRN3015BTA
+IND_SRN3015BTA-2R2M_BRN-M
+
+SRN3015BTA-5R6M 
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

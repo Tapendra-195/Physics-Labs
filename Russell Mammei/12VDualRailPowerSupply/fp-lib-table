@@ -8,4 +8,6 @@
   (lib (name "Inductor")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/LQH3NPZ6R8MMEL.pretty")(options "")(descr ""))
   (lib (name "3PinConnector")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/2SH_C_03_TR.pretty")(options "")(descr ""))
   (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/Logo.pretty")(options "")(descr ""))
+  (lib (name "DCDCConverterNew")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/PCN2-S12-D15-S.pretty")(options "")(descr ""))
+  (lib (name "SRN3015BTA")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Footprints/SRN3015BTA.pretty")(options "")(descr ""))
 )

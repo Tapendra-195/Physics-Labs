@@ -7,10 +7,11 @@
 	(title_block
 		(title "12V Dual Rail Power Supply")
 		(date "2026-07-27")
-		(rev "1.0")
+		(rev "1.1")
 		(company "The University of Winnipeg")
 		(comment 1 "Tapendra BC")
 		(comment 2 "Based on David Ostapchuck's design")
+		(comment 3 "Original DC DC Converter is discontinued so replacing with new one.")
 	)
 	(lib_symbols
 		(symbol "3PinConnector:2SH-C-03-TR"
@@ -175,7 +176,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DCDCConverter:PDM2-S12-D15-S"
+		(symbol "DCDCConverterNew:PCN2-S12-D15-S"
 			(pin_names
 				(offset 1.016)
 			)
@@ -183,7 +184,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -10.174 7.6305 0)
+				(at -0.254 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -191,8 +192,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "PDM2-S12-D15-S"
-				(at -10.1966 -10.1966 0)
+			(property "Value" "PCN2-S12-D15-S"
+				(at 3.302 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -200,8 +201,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "PDM2-S12-D15-S:CONV_PDM2-S12-D15-S"
-				(at 0 0 0)
+			(property "Footprint" "PCN2-S12-D15-S:CONV_PCN2-S12-D15-S"
+				(at 86.106 -29.972 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -238,8 +239,8 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PDM2-S12-D15-S/CUI/view-part/?ref=snap"
-				(at 0 0 0)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PCN2-S12-D15-S/CUI/view-part/?ref=snap"
+				(at 89.662 -41.148 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -248,8 +249,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "15/-15 Vdc,  0.067 A, 2 W, 10.8~13.2 Vdc Input Range"
-				(at 0 0 0)
+			(property "Description_1" "2 W, 1:1 Input Voltage Range, Single/Dual Unregulated Output, 7 Pin SIP, 1,000 Vdc Isolation, Dc-Dc Converter"
+				(at 77.724 -44.45 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -259,7 +260,7 @@
 				)
 			)
 			(property "Package" "SIP-6 CUI"
-				(at 0 0 0)
+				(at 84.836 -22.098 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -268,8 +269,8 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/PDM2-S12-D15-S/CUI/view-part/?ref=eda"
-				(at 0 0 0)
+			(property "Check_prices" "https://www.snapeda.com/parts/PCN2-S12-D15-S/CUI/view-part/?ref=eda"
+				(at 90.17 -38.354 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -279,7 +280,7 @@
 				)
 			)
 			(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
-				(at 0 0 0)
+				(at 85.09 -24.384 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -288,8 +289,8 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "1.03"
-				(at 0 0 0)
+			(property "PARTREV" "1.0"
+				(at 84.836 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -299,7 +300,7 @@
 				)
 			)
 			(property "MF" "CUI Inc."
-				(at 0 0 0)
+				(at 84.836 -32.004 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -308,8 +309,8 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "PDM2-S12-D15-S"
-				(at 0 0 0)
+			(property "MP" "PCN2-S12-D15-S"
+				(at 86.106 -35.052 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -318,8 +319,8 @@
 					(hide yes)
 				)
 			)
-			(property "CUI_purchase_URL" "https://www.cui.com/product/dc-dc-converters/isolated/pdm2-s-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-				(at 0 0 0)
+			(property "CUI_purchase_URL" "https://www.cui.com/product/dc-dc-converters/isolated/pcn2-s-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+				(at 86.106 -48.006 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -329,7 +330,7 @@
 				)
 			)
 			(property "MANUFACTURER" "CUI INC"
-				(at 0 0 0)
+				(at 84.836 -26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -338,10 +339,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PDM2-S12-D15-S_0_0"
+			(symbol "PCN2-S12-D15-S_0_0"
 				(rectangle
-					(start -10.16 -10.16)
-					(end 10.16 7.62)
+					(start 0 0)
+					(end 17.78 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -351,9 +352,9 @@
 					)
 				)
 				(pin input line
-					(at -15.24 2.54 0)
+					(at -5.08 -5.08 0)
 					(length 5.08)
-					(name "VIN"
+					(name "+VIN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -368,10 +369,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -15.24 -5.08 0)
+				(pin input line
+					(at -5.08 -8.89 0)
 					(length 5.08)
-					(name "GND"
+					(name "-VIN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -387,9 +388,9 @@
 					)
 				)
 				(pin output line
-					(at 15.24 2.54 180)
+					(at 22.86 -5.08 180)
 					(length 5.08)
-					(name "+VO"
+					(name "+VOUT"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -405,9 +406,9 @@
 					)
 				)
 				(pin output line
-					(at 15.24 0 180)
+					(at 22.86 -7.62 180)
 					(length 5.08)
-					(name "-VO"
+					(name "-VOUT"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -423,9 +424,9 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -5.08 180)
+					(at 22.86 -12.7 180)
 					(length 5.08)
-					(name "0V"
+					(name "COMMON"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1390,44 +1391,21 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "SSF-LXHM250GGD_1_1"
+				(rectangle
+					(start 0 0)
+					(end 12.7 -20.32)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin unspecified line
 					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 -7.62 180)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1445,7 +1423,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 -15.24 180)
+					(at -2.54 -15.24 0)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -1462,290 +1440,38 @@
 						)
 					)
 				)
-			)
-			(symbol "SSF-LXHM250GGD_1_1"
-				(rectangle
-					(start 0 0)
-					(end 12.7 -20.32)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Inductor:LQH3NPZ6R8MMEL"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -10.16 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LQH3NPZ6R8MMEL"
-				(at -10.16 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LQH3NPZ6R8MMEL:IND_LQH3NPZ6R8MMEL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey_Part_Number" "490-LQH3NPZ6R8MMELCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LQH3NPZ6R8MMEL/Murata/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "NONSTANDARD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LQH3NPZ6R8MMEL/Murata/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "N/A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Murata"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "LQH3NPZ6R8MMEL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Inductor with Inductance: 6.8uH Tol. +/-20%, Package: 1212 (3030)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Murata"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "LQH3NPZ6R8MMEL_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid -3.81 1.2645)
-					(end -2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.2645)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.27 1.2645)
-					(end 2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 3.81 1.2645)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "~"
+				(pin unspecified line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2450,6 +2176,378 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SRN3015BTA:SRN3015BTA-5R6M"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 6.985 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SRN3015BTA-5R6M"
+				(at 6.985 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "IND_SRN3015BTA-2R2M_BRN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SRN3015BTA-5R6M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SRN3015BTA-5R6M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "IND_SRN3015BTA-2R2M_BRN IND_SRN3015BTA-2R2M_BRN-M IND_SRN3015BTA-2R2M_BRN-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SRN3015BTA-5R6M_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 1.27)
+					(mid 3.81 2.5344)
+					(end 5.08 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 1.27)
+					(mid 6.35 2.5344)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 1.27)
+					(mid 8.89 2.5344)
+					(end 10.16 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 1.27)
+					(mid 11.43 2.5344)
+					(end 12.7 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 12.7 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SRN3015BTA-5R6M_1_2"
+				(arc
+					(start -1.27 10.16)
+					(mid -2.5344 11.43)
+					(end -1.27 12.7)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 7.62)
+					(mid -2.5344 8.89)
+					(end -1.27 10.16)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 5.08)
+					(mid -2.5344 6.35)
+					(end -1.27 7.62)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 2.54)
+					(mid -2.5344 3.81)
+					(end -1.27 5.08)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 12.7) (xy -1.27 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2819,11 +2917,25 @@
 		)
 		(uuid "d61278d5-5260-47cf-9e9c-4f09644de1dd")
 	)
-	(junction
-		(at 170.18 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11081276-982d-4853-90cc-fe3588255704")
+	(text "EMC Class B Filter"
+		(exclude_from_sim no)
+		(at 117.602 46.482 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "e7e615de-1cd4-47b1-b46c-753ca97cea9d")
+	)
+	(text "* PDM2 DC DC converter is discontinued, therefore it is replaced with PCN2 DC DC converter as per bel recommendation in V1.1"
+		(exclude_from_sim no)
+		(at 146.812 93.472 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "ea5ff881-218c-494e-8ff4-edc6145cfe08")
 	)
 	(junction
 		(at 175.26 63.5)
@@ -2838,12 +2950,6 @@
 		(uuid "21222e35-49c4-4732-97b5-57cbf9b83e66")
 	)
 	(junction
-		(at 109.22 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "253247b4-27a5-4bcf-82de-5b5f86eadb45")
-	)
-	(junction
 		(at 153.67 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2856,10 +2962,22 @@
 		(uuid "433baf42-b756-48f4-8b5b-656c607bc0d9")
 	)
 	(junction
+		(at 109.22 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73ec515b-62a9-48ac-bdf9-788912a3cf2e")
+	)
+	(junction
 		(at 186.69 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ae1f683-8a9c-480f-840a-b7d4c1094e69")
+	)
+	(junction
+		(at 134.62 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "991a1823-ba1c-401a-965a-71738a7b0d90")
 	)
 	(junction
 		(at 93.98 135.89)
@@ -2880,6 +2998,12 @@
 		(uuid "a851b524-ec16-45b3-8095-6a1adc425427")
 	)
 	(junction
+		(at 170.18 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac8129d7-c9f1-4987-8d49-a6d030c7af6b")
+	)
+	(junction
 		(at 49.53 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2890,12 +3014,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c608753f-7867-464d-88ba-acf3636528f8")
-	)
-	(junction
-		(at 134.62 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebd5d035-e834-4945-bcf9-20d98fa77315")
 	)
 	(junction
 		(at 50.8 67.31)
@@ -2992,6 +3110,16 @@
 			(type default)
 		)
 		(uuid "3b745a8f-abe9-43a7-8b77-7389feba844d")
+	)
+	(wire
+		(pts
+			(xy 109.22 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db82a69-19e0-4141-906e-07b48a4abadd")
 	)
 	(wire
 		(pts
@@ -3135,6 +3263,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 68.58) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4f0e7a-b61b-4049-a8af-20a85ec3cb80")
+	)
+	(wire
+		(pts
 			(xy 34.29 133.35) (xy 34.29 137.16)
 		)
 		(stroke
@@ -3175,6 +3313,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 60.96) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8820faee-93b8-420d-971b-15d94888e9e5")
+	)
+	(wire
+		(pts
 			(xy 200.66 133.35) (xy 196.85 133.35)
 		)
 		(stroke
@@ -3202,6 +3350,16 @@
 			(type default)
 		)
 		(uuid "977b9cbf-0c8b-496e-93e8-ed1293b9c128")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 134.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991c061a-94f6-4680-ba4b-954ed55ae541")
 	)
 	(wire
 		(pts
@@ -3275,16 +3433,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 63.5) (xy 175.26 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa62ae7c-07d6-4d43-ae08-086f55dadb92")
-	)
-	(wire
-		(pts
 			(xy 49.53 137.16) (xy 44.45 137.16)
 		)
 		(stroke
@@ -3325,7 +3473,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 139.7 68.58)
+			(xy 139.7 64.77) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3432,6 +3580,16 @@
 			(type default)
 		)
 		(uuid "fe4bbe76-8fd5-4a44-831b-15b2a818ce24")
+	)
+	(wire
+		(pts
+			(xy 167.64 63.5) (xy 175.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea39c57-37bb-4a79-929b-69e125dae422")
 	)
 	(label "V+"
 		(at 224.79 57.15 0)
@@ -4068,6 +4226,193 @@
 		)
 	)
 	(symbol
+		(lib_id "DCDCConverterNew:PCN2-S12-D15-S")
+		(at 144.78 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42468664-7c37-4002-b90e-3c189ce65220")
+		(property "Reference" "U1"
+			(at 145.796 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCN2-S12-D15-S"
+			(at 153.416 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DCDCConverterNew:CONV_PCN2-S12-D15-S"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PCN2-S12-D15-S/CUI/view-part/?ref=snap"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2 W, 1:1 Input Voltage Range, Single/Dual Unregulated Output, 7 Pin SIP, 1,000 Vdc Isolation, Dc-Dc Converter"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SIP-6 CUI"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PCN2-S12-D15-S/CUI/view-part/?ref=eda"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "CUI Inc."
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PCN2-S12-D15-S"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" "https://www.cui.com/product/dc-dc-converters/isolated/pcn2-s-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI INC"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cedb537b-41ac-42a1-9099-27130408c594")
+		)
+		(pin "1"
+			(uuid "5ffb9b1d-e5fa-4b7f-a972-0a28a4cce335")
+		)
+		(pin "2"
+			(uuid "5c6b2ab9-cc9f-4d6e-8161-ba08acab3631")
+		)
+		(pin "6"
+			(uuid "1c90ffd5-dce0-4759-986b-f67dc1d6005b")
+		)
+		(pin "5"
+			(uuid "24317fe1-b422-4e71-9284-77f7f6cba4b5")
+		)
+		(instances
+			(project ""
+				(path "/4f078ee0-c273-418c-accd-f2676911b380"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 109.22 64.77 0)
 		(unit 1)
@@ -4086,7 +4431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700nF"
+		(property "Value" "10uF"
 			(at 113.03 66.0399 0)
 			(effects
 				(font
@@ -4642,7 +4987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700nF"
+		(property "Value" "10uF"
 			(at 124.46 66.802 0)
 			(effects
 				(font
@@ -5023,6 +5368,85 @@
 			(project "12VDualRailPowerSupply"
 				(path "/4f078ee0-c273-418c-accd-f2676911b380"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SRN3015BTA:SRN3015BTA-5R6M")
+		(at 114.3 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7de955d3-435b-4bf6-8a25-eb672cd24c5e")
+		(property "Reference" "L1"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "5.6uH"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SRN3015BTA:IND_SRN3015BTA-2R2M_BRN-L"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SRN3015BTA-5R6M"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/bourns-inc/SRN3015BTA-5R6M/19542662"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aca11885-6418-4e2c-8905-1582cb5b4b62")
+		)
+		(pin "1"
+			(uuid "3c2ced15-c142-4e21-84d6-4185bea4a843")
+		)
+		(instances
+			(project ""
+				(path "/4f078ee0-c273-418c-accd-f2676911b380"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -5573,194 +5997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DCDCConverter:PDM2-S12-D15-S")
-		(at 154.94 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2119536-477d-41ac-8aea-388e16254ed3")
-		(property "Reference" "U1"
-			(at 154.94 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PDM2-S12-D15-S"
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DCDCConverter:CONV_PDM2-S12-D15-S"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PDM2-S12-D15-S/CUI/view-part/?ref=snap"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "15/-15 Vdc,  0.067 A, 2 W, 10.8~13.2 Vdc Input Range"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SIP-6 CUI"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PDM2-S12-D15-S/CUI/view-part/?ref=eda"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.03"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "CUI Inc."
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PDM2-S12-D15-S"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" "https://www.cui.com/product/dc-dc-converters/isolated/pdm2-s-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI INC"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81ee9ff9-eefb-4923-8922-3c1f3fb9a0eb")
-		)
-		(pin "2"
-			(uuid "3265d024-e159-49fd-8cc9-3f306cf45be1")
-		)
-		(pin "6"
-			(uuid "2cceaf53-f66c-486c-af53-6cf40bb5fada")
-		)
-		(pin "5"
-			(uuid "b9e4afe9-4ba9-4380-94a2-9d2b15d19acd")
-		)
-		(pin "4"
-			(uuid "c159b39c-efd1-4b00-a72d-0e98f1dc7c32")
-		)
-		(instances
-			(project ""
-				(path "/4f078ee0-c273-418c-accd-f2676911b380"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PwrConnector:PJ-066A")
 		(at 38.1 59.69 0)
 		(unit 1)
@@ -6094,185 +6330,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Inductor:LQH3NPZ6R8MMEL")
-		(at 121.92 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4d12878-85ba-419e-91e3-7be560e055ec")
-		(property "Reference" "L1"
-			(at 121.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6800nH"
-			(at 121.92 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor:IND_LQH3NPZ6R8MMEL"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "490-LQH3NPZ6R8MMELCT-ND"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LQH3NPZ6R8MMEL/Murata/view-part/?ref=snap"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NONSTANDARD"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LQH3NPZ6R8MMEL/Murata/view-part/?ref=eda"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Murata"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LQH3NPZ6R8MMEL"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Inductor with Inductance: 6.8uH Tol. +/-20%, Package: 1212 (3030)"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68cf6ad0-ef68-4da6-af5a-3311e3131ee1")
-		)
-		(pin "2"
-			(uuid "c742749a-458f-4779-ba1c-0a05bc02e0e5")
-		)
-		(instances
-			(project ""
-				(path "/4f078ee0-c273-418c-accd-f2676911b380"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 243.84 130.81 0)
 		(mirror y)
@@ -6365,7 +6422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IndicatorLED:SSF-LXHM250IGIGW_LUM"
+		(property "Footprint" "SSF-LXHM250IGIGW_LUM"
 			(at 241.3 54.61 0)
 			(effects
 				(font

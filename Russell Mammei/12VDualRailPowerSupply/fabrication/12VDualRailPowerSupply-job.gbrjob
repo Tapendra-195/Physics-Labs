@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.6"
     },
-    "CreationDate": "2026-08-06T06:06:05-05:00"
+    "CreationDate": "2026-08-27T00:25:10-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "12VDualRailPowerSupply",
       "GUID": "31325644-7561-46c5-9261-696c506f7765",
-      "Revision": "1.0"
+      "Revision": "1.1"
     },
     "Size": {
       "X": 55.05,

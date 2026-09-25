@@ -7,4 +7,6 @@
   (lib (name "LinRegulator")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Symbols/AS78L12RTR_G1/2026-07-28_03-01-44.kicad_sym")(options "")(descr ""))
   (lib (name "Inductor")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Symbols/LQH3NPZ6R8MMEL/LQH3NPZ6R8MMEL.kicad_sym")(options "")(descr ""))
   (lib (name "3PinConnector")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Symbols/2SH_C_03_TR/2SH_C_03_TR.kicad_sym")(options "")(descr ""))
+  (lib (name "DCDCConverterNew")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Symbols/PCN2-S12-D15-S/PCN2-S12-D15-S.kicad_sym")(options "")(descr ""))
+  (lib (name "SRN3015BTA")(type "KiCad")(uri "${KIPRJMOD}/3rdParty/Symbols/SRN3015BTA/2026-08-19_11-15-43.kicad_sym")(options "")(descr ""))
 )
